@@ -1,0 +1,186 @@
+  204  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  205  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  206  git --version
+  207  $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  208  $/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  209  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  210  $ sudo port install git
+  211  sudo port install git
+  214  git --version
+  215  git
+  216  git --version
+  217  git config --global use.name "Jinkyung Park\n"
+  218  git config --global user.email "jpark42@byu.edu"
+  219  git config --global core.editor "code --wait"
+  220  git config --global init.defaultBrach main
+  223  git
+  224  git config --list
+  225  git branch
+  226  git config --global init.defaultBranch main
+  231  mkdir git_practice
+  233  cd git_practice
+  234  git status
+  236  git status
+  237  git init
+  238  git status
+  240  rm -rf .git
+  241  git status
+  243  git init
+  245  git status
+  246  git add file_1.txt
+  247  git status
+  248  git commit -m 'create file_1'
+  249  git status
+  251  git log
+  253  git status
+  254  git add file_2.txt
+  255  git status
+  256  git status
+  257  git ls
+  258  git list
+  259  git config --global init.defaultBranch main
+  260  git status
+  267  git status
+  268  git log
+  270  rm -r git_practice
+  271  mkdir git_practice
+  272  cd git_practice
+  273  git init
+  275  git status
+  276  git config --global init.defaultBranch main
+  277  git status
+  279  git config --global init.defaultBranch main
+  280  git status
+  281  cd git_practice
+  282  git status
+  283  git config --global init.defaultBranch main
+  284  git status
+  287  git status
+  289  git status
+  290  git add file_1.txt
+  291  git add file_2.txt
+  292  git status
+  293  git commit -m "create new files"
+  294  git status
+  295  git log
+  298  git switch <new_feature>
+  299  git branch
+  300  cd git_practice
+  301  git branch
+  302  git branch new_feature
+  303  git branch
+  304  git switch new_feature
+  305  git switch new_feature
+  306  git --help
+  307  git switch new_feature
+  308  git --version
+  310  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"\n
+  311  git --version
+  312  git --version
+  327  git config --global use.name "Jinkyung Park"
+  328  git config --global user.email "jpark42@byu.edu"
+  329  git config --global core.editor "code --wait"
+  330  git config --global init.defaultBranch main
+  331  git_practice
+  332  cd git_practice
+  333  git touch git_practice
+  334  git status
+  335  git mkdir git_practice
+  336  mkdir git_practice
+  337  cd git_practice
+  340  cd git_practice
+  343  git status
+  344  git touch file_1.txt
+  345  git status
+  347  git status
+  348  git init
+  349  git status
+  350  git add file_1.txt
+  351  git add file_2.txt
+  352  git status
+  353  git commit -m "create new files"
+  354  git status
+  357  git config --global init.defaultBranch main
+  358  cd git_practice
+  359  git status
+  360  git status
+  362  git status
+  363  git add .
+  364  git reset
+  365  git add file_1.txt
+  366  git status
+  367  git commit -m "update file_1.txt"
+  368  git add file_2.txt
+  369  git commit -m "update file_2.txt"
+  370  git status
+  372  git add Readme.md
+  373  git commit -m "create and update Readme.md"
+  374  git status
+  375  touch random.gitignore
+  376  git add random.gitignore
+  377  git commit -m "create ignore file"
+  378  git status
+  380  git status
+  381  git status
+  382  git status
+  383  git add api-keys.txt
+  384  git status
+  385  git commit -m "add api-keys file into the ignore"
+  386  git status
+  387  git branch [features]
+  388  git branch
+  389  git branch ["feature"]
+  390  git branch [branch-features]
+  391  git checkout -b [features]
+  392  git checkout -b features
+  393  git branch
+  394  git log
+  395  git touch new_features.txt
+  397  git status
+  398  git add new_features.txt
+  399  git commit -m "add empty file"
+  401  git status
+  402  git branch
+  403  git add new_features.txt
+  404  git commit -m "add a line to the file"
+  405  git status
+  406  git switch main
+  407  git branch
+  409  git add file_1.txt
+  410  git commit -m "add a new line"
+  411  git log
+  412  git merge features
+  413  git commit -m "mearge the feature branch into the main"
+  414  git log
+  415  cd git_practice
+  416  git branch
+  417  git log
+  418  cd git_practice
+  420  git add new_features.txt
+  421  git status
+  422  git commit -m "replace the old text with a new text"
+  423  git status
+  424  git switch features
+  426  git add new_features.txt
+  427  git commit -m "replace the old text on the file from the features branch"
+  428  git switch main
+  429  git merge features
+  430  git add new_features.txt
+  431  git status
+  432  git commit -m "keep both changes from main and features"
+  433  git branch -d features
+  434  git branch
+  435  git remote add origin https://github.com/JinSadiePark/git-practice-JinSadiePark.git
+  436  git push -u origin main
+  437  git remote add origin https://github.com/JinSadiePark/git-practice-JinSadiePark.git
+  438  git remote -v
+  439  git remote remove orign
+  440  git remote remove origin
+  441  git remote -v
+  442  git remote add origin git@github.com:JinSadiePark/git-practice-JinSadiePark.git
+  443  git push -u origin main
+  444  git status
+  445  cd git_practice
+  446  git pull
+  447  git log --online > gitlog.txt
+  448  git long --oneline > gitlog.txt
