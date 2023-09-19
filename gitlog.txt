@@ -1,0 +1,19 @@
+c05e526 commit history file
+ecd7eb8 commit gitlog file
+228688d Merge pull request #1 from annleealbod/feature-annleealbod
+ada7ff4 adding a file again. I'm desperate
+7318c2e i created a new file
+8876f35 i edited that
+bbc0c47 keep both changes from main and features
+4ea4bb8 replace the old text on the file from the features branch
+a702c6b replace the old text with a new text
+c99cff9 mearge the feature branch into the main
+a5691e1 add a new line
+c861aaa add a line to the file
+b0acf47 add empty file
+337a41c add api-keys file into the ignore
+84819a1 create ignore file
+bb56cde create and update Readme.md
+4520e68 update file_2.txt
+d28ac63 update file_1.txt
+6a37c3f create new files
